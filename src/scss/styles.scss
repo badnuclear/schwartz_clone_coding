@@ -118,15 +118,18 @@ footer {
   padding: 100px 0;
   .footer__top {
     width: 55%;
-    margin: 0 auto;
+    margin: 0 100px;
     color: white;
     grid-template-columns: 2fr 1fr;
     span {
       font-size: 38px;
+      right: 150;
+      margin-right: 100px;
     }
     ul {
       width: 100%;
       display: flex;
+      margin-left: 300px;
       li {
         margin-right: 40px;
         list-style: none;
